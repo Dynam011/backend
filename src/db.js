@@ -14,4 +14,5 @@ export const pool = new pg.Pool({
   database: DB_DATABASE,
   password: DB_PASSWORD,
   port: DB_PORT,
+  ssl: { rejectUnauthorized: false }, // <--- Habilita SSL
 });
