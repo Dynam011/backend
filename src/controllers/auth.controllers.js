@@ -44,6 +44,7 @@ export const login = async (req, res) => {
         email: user.email,
         first_name: user.first_name,
         last_name: user.last_name,
+        phone: user.phone,
         role_id: user.role_id,
         // ...otros campos públicos
       },
