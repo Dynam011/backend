@@ -19,7 +19,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://culinary-school11.netlify.app", "http://localhost:3000"],
+    origin: ["https://culinary-school11.netlify.app"],
     credentials: true,
   })
 );
