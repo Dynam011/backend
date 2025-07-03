@@ -11,7 +11,7 @@
     "json-server": "json-server --watch src/db.json --port 3000 "
   },
   "prisma": {
-  "schema": "db/schema.prisma"
+  "schema": "prisma/schema.prisma"
 },
   "keywords": [],
   "author": "",
